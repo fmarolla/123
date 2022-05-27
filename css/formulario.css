@@ -1,0 +1,78 @@
+/* /ESTILOS FORMULARIO BOOTSTRAP/ */
+
+.container-xl h1{ /*TEXTO CONSULTA O SUGERENCIA*/
+font-weight: bold;
+font-size: 1.3em;
+margin: 0.30em 0;
+padding-bottom: 1.2em;
+}
+
+.container-xl input{ /*CAJAS DE TEXTO BORDES*/
+border-top: none;
+border-left: none;
+border-right: none;
+border-color: black;
+border-radius: 0px;
+}
+
+.container-xl textarea{ /*CAJA DE CUERPO DE MENSAJE*/
+border-top: none;
+border-left: none;
+border-right: none;
+background-color: #EBD723;
+border-color: black;
+border-radius: 0px;
+}
+
+#FormControlInput1{ /*CAJAS DE TEXTO POR DENTRO*/
+background-color: #EBD723;
+padding: 2px;
+font-weight: bold;
+}
+
+#FormControlInput2{ /*CAJAS DE TEXTO POR DENTRO*/
+background-color: #EBD723;
+padding: 2px;
+font-weight: bold;
+}
+
+#FormControlTextarea1{ /*CAJAS DE TEXTO POR DENTRO*/
+background-color: #EBD723;
+padding: 2px;
+font-weight: bold;
+}
+
+.container-xl{ /* SECTION DEL FORM */
+position: relative;
+z-index: 100;
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: bold;
+background-color: #EBD723;
+}
+
+.container-xl button{ /*BOTON ENVIAR*/
+font-weight: bold;
+background: #4a4311;
+font-size: 110%;
+color: #E9D431;
+border: none;
+}
+
+.container-xl button:hover{ /* BOTON ENVIAR HOVER */
+background-color: black;
+}
+
+.alertas{ /*mensajes en el formulario*/
+    width: auto;
+    text-align: initial;
+    margin: 0px;
+    color: rgb(255, 0, 0);
+    padding: 0px;
+  }
+
+@media all and (min-width: 720px){
+.container-xl{ /* SECTION DEL FORM */
+position: unset;
+}
+}

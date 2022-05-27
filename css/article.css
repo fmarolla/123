@@ -1,0 +1,84 @@
+.containerHamburguesa {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.containerCerveza {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.imagenhamburguesa {
+    margin: auto;
+    text-align: center;
+    padding: 0 160px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+}
+
+.imagenhamburguesa h1 {
+    color: rgb(34, 33, 33);
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+header p{
+    padding: 10px;
+    margin: 10px;
+}
+.spanhamburguesas {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#hamburguesas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+img {
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.spanCervezas {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight:bold ;
+    text-decoration: underline;
+}
+
+#Cervezas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.Cervezadescripcion p{
+    font-size: 1em;
+    font-weight: bold;
+}

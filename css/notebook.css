@@ -1,0 +1,103 @@
+
+@media all and (min-width: 720px){ /*Despues de los 720px la pantalla se estira y te da la version de escritorio  por asi decirlo*/
+
+    #logo {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #instagram {
+        padding: 0 10px;
+    }
+    
+    .nav-links {
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    img:hover{
+        transform: scale(1.1);
+        transition: 400ms;
+    }
+    
+    #botonflotante {
+        position: fixed;
+        bottom: 10%;
+        right: 0px;
+        z-index: 999;
+        background-color: #EBD723;
+        box-shadow: 5px 5px 10px rgb(60, 58, 58);
+        padding: 0px 60px;
+        margin: 0;
+        border-radius: 10px;
+        color: rgba(6, 6, 6, 0.774);
+        font-size: 30px;
+        text-decoration: none;
+        }
+
+    .containerHamburguesa  {
+        display: grid;
+        gap: 70px;   
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 320px 320px;
+        row-gap: 30px;
+        margin-right: 700px;
+        margin-left: 700px;
+    }
+    
+    .containerCerveza  {
+        display: grid;
+        gap: 45px;   
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 300px 450px;
+        padding-top: 24px;
+        row-gap: 130px;
+    }
+
+    .Cervezadescripcion p{
+        padding-top: 10px;
+
+    }
+
+    hr{
+        padding: 10px;
+    }
+
+    #ContainerNuestrasSucursales{
+        display: flex;
+        text-align: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .videoNosotros {
+        width: 300px;
+        height: 200px;
+    }
+
+    .ContainerUbicacion h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 0px;
+    }
+    
+    .ContainerNosotros h2{
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 30px;
+        text-align: center;
+    }
+    .ImagenFooter {
+        height: 30%;
+        width: 30%;
+        
+    }
+
+}

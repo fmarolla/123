@@ -1,0 +1,74 @@
+@media all and (min-width: 400px){
+    
+    #botonflotante {
+        position: fixed;
+        bottom: 10%;
+        right: 0px;
+        z-index: 999;
+        background-color: #EBD723;
+        box-shadow: 5px 5px 10px rgb(60, 58, 58);
+        padding: 0px 60px;
+        margin: 0;
+        border-radius: 10px;
+        color: rgba(6, 6, 6, 0.774);
+        font-size: 30px;
+        text-decoration: none;
+        }
+
+    #banner {
+        background-image: url("../imagenes/hamburguesa.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+        box-shadow: inset 0 0 0 2000px rgb(137 133 133 / 57%);
+    }
+
+    .containerHamburguesa {
+        max-width: 1200px;
+        margin-left: 600px;
+        margin-right: 600px;
+
+    }
+    .containerCerveza {
+        max-width: 1200px;
+        margin-left: 600px;
+        margin-right: 600px;
+    }
+
+    .hamburguesadescripcion p{
+        margin-top: 16px;
+    }
+
+    .spanhamburguesas {
+        font-size: 2em;
+    }
+
+    img {
+    height: 200px;
+    width: 200px;
+    }
+
+
+    #Cervezas {
+        padding-top: 24px;
+    }
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImagenFooter {
+        height: auto;
+        width: 60%;
+        
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+
+
